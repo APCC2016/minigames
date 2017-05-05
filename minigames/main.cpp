@@ -16,8 +16,6 @@ int main() {
 	SetDrawScreen(DX_SCREEN_BACK); //•`‰ææ‚ğ— ‰æ–Ê‚Éİ’è
 
 
-	int Handle;     // ‰æ‘œŠi”[—pƒnƒ“ƒhƒ‹
-
 	while (ProcessMessage() == 0 &&
 		ClearDrawScreen() == 0 &&
 		GetHitKeyStateAll_2(Key) == 0 &&
